@@ -1,0 +1,54 @@
+.header{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    position: relative;
+}
+ .bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+ }
+
+ .bannerTitle{
+    font-size: 4rem;
+ }
+
+ .bannerDesc{
+    font-size: 2rem;
+ }
+
+ .card{
+    cursor: pointer;
+ }
+
+ .card:hover{
+    background-color:skyblue;
+    border:2px solid black;
+ }
+
+ .bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .footer{
+   background: black;
+   height: auto;
+   width: 100vw;
+   font-family: "open sans";
+   color:#fff;
+
+ }
+
+ .footer-content{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+ }
